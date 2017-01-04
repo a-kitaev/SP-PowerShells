@@ -2,9 +2,9 @@
 #  Loops through all document libraries
 #  This version of the script compares MD5 hash of the files so it will find duplicates even if they are renamed
 
-#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(ìMicrosoft.SharePointî)
+#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(‚ÄúMicrosoft.SharePoint‚Äù)
 
-$RootSiteUrl = "https://portal.avestragroup.com/ITDep"  #Site to check
+$RootSiteUrl = "https://your.site.com/sites/test"  #Site to check
 $Items = @() 
 $duplicateItems = @() 
 $web = get-spweb $RootSiteUrl
