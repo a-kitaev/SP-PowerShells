@@ -1,0 +1,1 @@
+file_stats.ps1 will check all items in all document libraries of sites within a site collection and export filename, filesize, modified and created dates, modified by and created by info into csv file.
