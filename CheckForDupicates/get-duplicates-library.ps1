@@ -2,12 +2,12 @@
 # Exports info about duplicates to .csv
 #
 
-#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(ìMicrosoft.SharePointî)
+#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(‚ÄúMicrosoft.SharePoint‚Äù)
 
-$SiteUrl = "https://portal.avestragroup.com/ITDep"
-$SiteUrl2 =	"https://portal.avestragroup.com/ITDep"	#site to check
-$ListName = "/shared%20documents/"					# first library
-$ListName2 = "/Internal%20Documents/"					# second library
+$SiteUrl = "https://your.site.com/sites/test"   #site to check
+$SiteUrl2 =	"https://your.site.com/sites/test"	#second site to check
+$ListName = "/shared%20documents/"				    	# first library
+$ListName2 = "/Internal%20Documents/"				  	# second library
 
 $Items = @() 
 $Duplicates = @() 
