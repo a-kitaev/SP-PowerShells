@@ -1,9 +1,9 @@
 # Check a site for duplicate documents
 # Export info about found duplicates to csv
 
-#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(ìMicrosoft.SharePointî)
+#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(‚ÄúMicrosoft.SharePoint‚Äù)
 
-$RootSiteUrl = "https://portal.avestragroup.com/ITDep"
+$RootSiteUrl = "https://your.site.com/sites/test"  #Site to check
 $Items = @() 
 $Duplicates = @() 
 $duplicateItems = @() 
