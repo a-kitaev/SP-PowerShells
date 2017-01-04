@@ -1,12 +1,12 @@
 #  This script checks two document libraries for duplicates and writes findings into csv file
 #  This version of the script compares MD5 hash of the files so it will find duplicates even if they are renamed
 
-#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(ìMicrosoft.SharePointî)
+#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(‚ÄúMicrosoft.SharePoint‚Äù)
 
-$SiteUrl = "https://portal.avestragroup.com/ITDep"		# first site
-$SiteUrl2 =	"https://portal.avestragroup.com/ITDep"		# second site
-$ListName = "/shared%20documents/"						# first library
-$ListName2 = "/Internal%20Documents/"					# second library
+$SiteUrl = "https://your.site.com/sites/test"		# first site
+$SiteUrl2 = "https://your.site.com/sites/test"		# second site
+$ListName = "/shared%20documents/"				# first library
+$ListName2 = "/Internal%20Documents/"				# second library
 
 $Items = @() 
 $duplicateItems = @() 
