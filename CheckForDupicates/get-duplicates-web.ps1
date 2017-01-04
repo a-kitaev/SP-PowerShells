@@ -1,10 +1,10 @@
 #  Check whole site collection for duplicates and export found duplicates to csv
-#  Loops through all subsites and doc libraries
+#  Loops through all sites and doc libraries
 #
 
-#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(ìMicrosoft.SharePointî)
+#Add-PSSnapin Microsoft.SharePoint.PowerShell #-ErrorAction SilentlyContinue [system.reflection.assembly]::LoadWithPartialName(‚ÄúMicrosoft.SharePoint‚Äù)
 
-$RootSiteUrl = "https://portal.avestragroup.com"
+$RootSiteUrl = "https://your.site.com/" #site collection url
 $Items = @() 
 $Duplicates = @() 
 $duplicateItems = @() 
